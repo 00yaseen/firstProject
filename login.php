@@ -1,6 +1,6 @@
 <?php
 session_start();
-include("includes/database.php");
+include("database.php");
 
 $error = "";
 
@@ -78,3 +78,4 @@ if($_SERVER["REQUEST_METHOD"]== "POST"){
 
 </body>
 </html>
+
