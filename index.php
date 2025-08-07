@@ -120,5 +120,5 @@ include_once("header.php");
 </main>
 
 <?php
-include_once("includes/footer.php");
+include_once("footer.php");
 ?>
