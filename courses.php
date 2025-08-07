@@ -1,11 +1,11 @@
 <?php
-include_once("includes/header.php");
+include_once("header.php");
 ?>
 
 <div  class="has-text-centered has-text-black mt-2">
   <a href="index.php" class="has-text-black">Home</a> >> Courses
  </div>
-<section class="section has-background-white" style="margin-top:10rem;">
+<section class="section has-background-white" style="margin-top:10 rem;">
   <div class="container">
     <h1 class="title has-text-centered mb-6">Our Popular Courses</h1>
 
@@ -91,5 +91,6 @@ include_once("includes/header.php");
 </section>
 
 <?php
-include_once("includes/footer.php");
+include_once("footer.php");
+
 ?>
