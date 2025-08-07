@@ -1,0 +1,66 @@
+body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      color: white;
+    }
+
+    .glass-card {
+      background: rgba(255, 255, 255, 0.07);
+      border-radius: 20px;
+      padding: 2.5rem;
+      max-width: 420px;
+      width: 100%;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .title {
+      color: #00d1b2;
+    }
+
+    .input,
+    .button {
+      border-radius: 10px;
+    }
+
+    .input:focus {
+      border-color: #00ffcc;
+      box-shadow: 0 0 10px #00ffcc;
+    }
+
+    .button.is-primary {
+      background-color: #00d1b2;
+      border-color: #00d1b2;
+      font-weight: bold;
+    }
+
+    .button.is-primary:hover {
+      background-color: #00b89c;
+    }
+
+    .icon.is-left i {
+      color: #00ffcc;
+    }
+
+    a {
+      color: #a0e9ff;
+    }
+
+    .footer-text {
+      margin-top: 1rem;
+      text-align: center;
+    }
+
+    @media (max-width: 480px) {
+      .glass-card {
+        padding: 1.5rem;
+      }
+    }
+    

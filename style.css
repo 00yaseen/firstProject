@@ -1,0 +1,59 @@
+body {
+  font-family: 'Fira Code', monospace;
+  color: #f5f5f5;
+}
+
+header {
+  background: linear-gradient(to right, #141e30, #243b55);
+  padding: 1rem;
+  position: relative;
+}
+
+.navbar {
+  background: linear-gradient(135deg, #e0f7fa, #e1bee7, #fce4ec);
+}
+
+.login-btn {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.card {
+  border-radius: 10px !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+  background: white;
+  border-radius: 12px;
+}
+
+footer {
+  background: linear-gradient(to right, #0f2238, #011935);
+  color: #eeeeee;
+  padding: 3rem 1rem;
+}
+
+.social-icons img {
+  margin-right: 0.5rem;
+  transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+input.input {
+  border-radius: 5px;
+}
+
+.button.is-info {
+  border-radius: 5px;
+}
