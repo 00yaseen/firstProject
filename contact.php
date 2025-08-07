@@ -6,7 +6,7 @@ include_once("header.php");
  <div  class="has-text-centered has-text-black mt-2">
   <a href="index.php" class="has-text-black">Home</a> >> Contact
  </div>
-<section class="section" style="margin-top:10 rem;">
+<section class="section" style="margin-top:15 rem;">
   <div class="container">
     <h1 class="title has-text-centered">📩 Contact Us</h1>
 
@@ -44,4 +44,5 @@ include_once("header.php");
 <?php
 include_once("footer.php");
 ?>
+
 
