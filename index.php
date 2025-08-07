@@ -1,4 +1,5 @@
 <?php
+include_once("includes/header.php");
 ?>
 <!-- Main Content -->
  <div  class="has-text-centered mt-2">
