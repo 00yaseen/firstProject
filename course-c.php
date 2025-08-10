@@ -4,10 +4,7 @@ include_once("header.php");
   
 <div class="columns is-gapless" style="margin-top:13.5 rem;">
         <!-- Sidebar -->
-    <aside class="column is-one-quarter sidebar mt-3" style="width:270px;overflow-y:auto;width: 250px;
-      height: calc(100 vh - 3.25 rem);
-      padding: 1 rem;
-      border-right: 1 px solid #ddd;">
+    <aside class="column is-one-quarter sidebar mt-3">
       <div class="menu">
         <ul class="menu-list">
           <li><a class="topic-item">1. Introduction to C</a></li>
@@ -34,7 +31,7 @@ include_once("header.php");
     </aside>
 
     <section class="section">
-    <div class="container" style="margin-left:260 px;overflow-y: auto; right:0;">
+    <div class="container">
         <!-- Content Area -->
         <div class="column is-9 content-area">
           <h3 class="title is-4 has-text-centered">Introduction to C</h3><hr>
@@ -79,5 +76,6 @@ int main() {
       </div>
     </div>
   </section>
+
 
 
