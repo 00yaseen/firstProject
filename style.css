@@ -11,6 +11,10 @@ header {
 
 .navbar {
   background: linear-gradient(135deg, #e0f7fa, #e1bee7, #fce4ec);
+  position: sticky;
+  top:0;
+  z-index:1000;
+  
 }
 
 .login-btn {
@@ -56,4 +60,5 @@ input.input {
 
 .button.is-info {
   border-radius: 5px;
+
 }
