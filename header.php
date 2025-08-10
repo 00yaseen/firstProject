@@ -24,9 +24,8 @@ session_start();
   <?php else:?>
     <a href="login.php" class="button is-light is-small login-btn">LogIn</a>
     <?php endif;?>
-</header>
 
-<nav class="navbar" role="navigation" aria-label="main navigation" style="position:fixed; top:0; left:0; right:0; margin-top: 10.6rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <nav class="navbar" role="navigation" aria-label="main navigation" style="position:fixed; top:0; left:0; right:0; margin-top: 10.6rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
   <div class="navbar-brand">
     <!-- Burger menu -->
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="mainNavbar">
@@ -46,4 +45,8 @@ session_start();
     </div>
 </div>
 </nav>
+
+</header>
+
+
 
