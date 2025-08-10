@@ -4,7 +4,7 @@ include_once("header.php");
   
 <div class="columns is-gapless" style="margin-top:13.5 rem;">
         <!-- Sidebar -->
-    <aside class="column is-one-quarter sidebar mt-3" style="position:fixed;width:270px;overflow-y:auto;width: 250px;
+    <aside class="column is-one-quarter sidebar mt-3" style="width:270px;overflow-y:auto;width: 250px;
       height: calc(100 vh - 3.25 rem);
       padding: 1 rem;
       border-right: 1 px solid #ddd;">
@@ -79,4 +79,5 @@ int main() {
       </div>
     </div>
   </section>
+
 
