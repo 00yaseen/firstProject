@@ -5,7 +5,7 @@ include_once("header.php");
  <div  class="has-text-centered mt-2">
   <a href="index.php" class="has-text-black">Home</a>
  </div>
-<main class="section" style="margin-top:11rem;">
+<main class="section" style="margin-top:5rem;">
   <div class="container">
     <div class="columns is-multiline">
       <div class="column is-4" id="web">
